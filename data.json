@@ -1,0 +1,90 @@
+{
+    "google.com": {
+        "URL": "google.com",
+        "ratingImage": "./Assets/greenRating.svg",
+        "ratingDisc": "This website is rated safe. However, since this is a search engine, the results may not all fit this rating.",
+        "providedDescription": "Search the world's information, including webpages, images, videos and more. Google has many special features to help you find exactly what you're looking for.",
+        "funFact": "Google was launched in 1998, so if you look up 'Google in 1998', you get an old version of Google!",
+        "summary": "Google is a search engine that allows you to extensivley search the web. Google is safe on it's own, but since it searches the entire internet and displays it, some results may vary in safness."
+    },
+    "bing.com": {
+        "URL": "bing.com",
+        "ratingImage": "./Assets/greenRating.svg",
+        "ratingDisc": "This website is rated safe. However, since this is a search engine, the results may not all fit this rating.",
+        "providedDescription": "Bing helps you turn information into action, making it faster and easier to go from searching to doing.",
+        "funFact": "Over 70% of those who use Bing are older than 35.",
+        "summary": "Microsoft Bing is one of the major search engines. It has an extensive databse, and it also allows you to earn rewards through searching."
+    },
+    "chess.com": {
+        "URL": "chess.com",
+        "ratingImage": "./Assets/greenRating.svg",
+        "ratingDisc": "This website is safe, but it has a chat feature, which can be disabled, and groups.",
+        "providedDescription": "Play chess online for free on Chess.com with over 100 million members from around the world. Have fun playing with friends or challenging the computer!",
+        "funFact": "Using Chess.com, you can play an array of celebreties in bot form!",
+        "summary": "Chess.com is a website in which you can play friends, strangers, or bots. Work on improving your skills and see your rating."
+    },
+    "mozilla.org": {
+        "URL": "mozzila.org",
+        "ratingImage": "./Assets/greenRating.svg",
+        "ratingDisc": "This website is safe.",
+        "providedDescription": "Mozilla puts people before profit, creating products, technologies and programs that make the internet healthier for everyone.",
+        "funFact": "Firefox, Mozilla's broswer, was originally called Phoenix, but it was renamed to 'Firefox' because that's a red panda's nickname. A red panda was the orignial icon.",
+        "summary": "Mozilla is a nonprofit that works to keeping the internet safer. Their website includes many tools that can help you privatly and safely browse the internet."
+    },
+    "chat.openai.com": {
+        "URL": "chat.openai.com",
+        "ratingImage": "./Assets/greenRating.svg",
+        "ratingDisc": "This website is rated safe. However, there is a small chance ChatGPT may generate harmful or offensive content.",
+        "providedDescription": "ChatGPT is an AI-powered language model developed by OpenAI, capable of generating human-like text based on context and past conversations.",
+        "funFact": "ChatGPT's training dataset contains over 570 GB of text.",
+        "summary": "ChatGPT is a website where you can ask an AI any question, and it will respond mostly with a helpful answer. It's always improving."
+    },
+    "6pointsscitech.org": {
+        "URL": "6pointsscitech.org",
+        "ratingImage": "./Assets/greenRating.svg",
+        "ratingDisc": "This website is safe.",
+        "providedDescription": "URJ 6 Points Sci-Tech Academy is the Jewish camp that curious minds have been waiting for! At 6 Points Sci-Tech Academy scientific inquiry meets fun. Campers entering grades 4-10 spend two weeks exploring robotics, video game design, science, digital media, and a host of other fun activities in a friendly setting with campers who share similar interests.",
+        "funFact": "This website was started at this camp!",
+        "summary": "This website describes the 6 Point Sci Tech Academy, a camp at Governer's Academy for people who love science or technology."
+    },
+    "thenonofield.com": {
+        "URL": "thenonofield.com",
+        "ratingImage": "./Assets/redRating.svg",
+        "ratingDisc": "This website is not safe, and you should not go there.",
+        "providedDescription": "The NoNo Field is a field where only the Govs can go.",
+        "funFact": "Boker Big Bang happens there a lot.",
+        "summary": "The NoNo Field is an unsafe website for people that don't go there because the camp might IP ban you!"
+    },
+    "gustycube.xyz": {
+        "URL": "gustycube.xyz",
+        "ratingImage": "./Assets/greenRating.svg",
+        "ratingDisc": "This website is safe.",
+        "providedDescription": "If you are bored, click through this website. There is games, and coding projects.",
+        "funFact": "GustyCube made this website",
+        "summary": "This is a website where GustyCube posts their projects."
+    },
+    "facebook.com": {
+        "URL": "facebook.com",
+        "ratingImage": "./Assets/yellowRating.svg",
+        "ratingDisc": "This website is a social media platform, so you should watch for unsafe posts, and strangers.",
+        "providedDescription": "Connect with friends, family and other people you know. Share photos and videos, send messages and get updates.",
+        "funFact": "The owner of Facebook, Meta, also owns Instagram.",
+        "summary": "Facebook is a social media service allowing posting, selling using Facebook marketplace, and advertising. You should be wary of what is on it."
+    },
+    "twitter.com": {
+        "URL": "twitter.com",
+        "ratingImage": "./Assets/yellowRating.svg",
+        "ratingDisc": "This website is a social media platform, so you should watch for unsafe posts, and strangers.",
+        "providedDescription": "From breaking news and entertainment to sports and politics, get the full story with all the live commentary.",
+        "funFact": "There are more than 229 million daily active users on Twitter.",
+        "summary": "Twitter is a social media platform where you can discuss news, and sports. It is a social media platform, so you should be careful about using it."
+    },
+    "instagram.com": {
+        "URL": "instagram.com",
+        "ratingImage": "./Assets/yellowRating.svg",
+        "ratingDisc": "This website is a social media platform, so you should watch for unsafe posts, and strangers.",
+        "providedDescription": " Instagram - A simple, fun & creative way to capture, edit & share photos, videos & messages with friends & family.",
+        "funFact": "Meta, the owner of Instagram, also owns the Oculus.",
+        "summary": "Instagram is a social media platform where you can talk to friends, and post what you are doing. Be careful, it's a social media platform."
+    }
+}
