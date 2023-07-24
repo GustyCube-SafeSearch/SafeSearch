@@ -39,6 +39,8 @@ When you add a pull request, please clearly state what you have done in your req
 
 # To-Do
 
+ **Add websites to database**
+
 * Add an "open link" button to the results
     * This can be accomplished by having a new _div_ element with the same styling as the others and have a button's link change with the information using javascript.
 * Add a "news" catagory for certain websites
