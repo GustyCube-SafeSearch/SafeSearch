@@ -14,9 +14,9 @@
 }
 
 #searchBarDiv {
-    margin: 225px;
     text-align: center;
-}
+    margin-top: 50px;
+  }
 
 label {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -47,7 +47,6 @@ label {
 }
 
 .searchBar {
-    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -58,8 +57,42 @@ label {
     max-width: 584px;
     border-radius: 24px;
     position: relative;
+    margin-top: 10px;
+  }
 
-}
+  .searchBar input[type="url"] {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 24px;
+  }
+
+  .searchBar button[type="button"] {
+    padding: 8px 16px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 24px;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 767px) {
+    #searchBarDiv {
+      margin-top: 30px;
+    }
+  
+    .searchBar {
+      width: 100%;
+      max-width: none;
+      border-radius: 12px;
+      padding: 8px; /* Add some padding to improve touch interaction */
+    }
+  
+    .searchBar input[type="url"] {
+      padding: 6px; /* Reduce input padding for smaller screens */
+    }
+  }
+  
 
 #searchQueryInput {
     width: 100%;

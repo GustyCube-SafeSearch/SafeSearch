@@ -29,23 +29,26 @@ function searchSiteEnter(evt) {
 }
 
 function searchSite() {
-  if (!data[searchBar.value]) {
+  
+  var searchTerm = searchBar.value.toLowerCase();
+
+  if (!data[searchTerm]) {
     alert("No info found. This website was created as an example, so there aren't many options yet! Try picking from the dropdown.")
     return
   }
-  console.log(searchBar.value)
+  console.log(searchTerm)
   page1.style.display = "none"
   page2[0].style.display = "block"
   secureLock.style.display = "inline"
-  websiteName.innerHTML = data[searchBar.value].URL
-  document.getElementById("irating2").src = data[searchBar.value].ratingImage
-  ratingDiscription.innerHTML = data[searchBar.value].ratingDisc
+  websiteName.innerHTML = data[searchTerm].URL
+  document.getElementById("irating2").src = data[searchTerm].ratingImage
+  ratingDiscription.innerHTML = data[searchTerm].ratingDisc
   proDiscBlock.style.display = "inline-block"
-  dprodisc21.innerHTML = data[searchBar.value].providedDescription
-  dFunFactText2.innerHTML = data[searchBar.value].funFact
+  dprodisc21.innerHTML = data[searchTerm].providedDescription
+  dFunFactText2.innerHTML = data[searchTerm].funFact
   dfunFact2.style.display = "inline-block"
   dSummary2.style.display = "inline-block"
-  dSummary2Text.innerHTML = data[searchBar.value].summary
+  dSummary2Text.innerHTML = data[searchTerm].summary
 }
 
 

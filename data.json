@@ -78,5 +78,13 @@
         "providedDescription": " Instagram - A simple, fun & creative way to capture, edit & share photos, videos & messages with friends & family.",
         "funFact": "Meta, the owner of Instagram, also owns the Oculus.",
         "summary": "Instagram is a social media platform where you can talk to friends, and post what you are doing. Be careful, it's a social media platform."
+    },
+    "youtube.com": {
+        "URL": "youtube.com",
+        "ratingImage": "./Assets/yellowRating.svg",
+        "ratingDisc": "This website is a social media platform, so you should watch for unsafe posts, and strangers.",
+        "providedDescription": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+        "funFact": "Youtube's founders created Youtube using their salary from working at PayPal.",
+        "summary": "Youtube is a site where you can watch videos from your favorite creators. Watch out for unsafe videos and posts!"
     }
 }
