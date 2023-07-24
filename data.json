@@ -47,14 +47,6 @@
         "funFact": "This website was started at this camp!",
         "summary": "This website describes the 6 Point Sci Tech Academy, a camp at Governer's Academy for people who love science or technology."
     },
-    "thenonofield.com": {
-        "URL": "thenonofield.com",
-        "ratingImage": "./Assets/redRating.svg",
-        "ratingDisc": "This website is not safe, and you should not go there.",
-        "providedDescription": "The NoNo Field is a field where only the Govs can go.",
-        "funFact": "Boker Big Bang happens there a lot.",
-        "summary": "The NoNo Field is an unsafe website for people that don't go there because the camp might IP ban you!"
-    },
     "gustycube.xyz": {
         "URL": "gustycube.xyz",
         "ratingImage": "./Assets/greenRating.svg",
