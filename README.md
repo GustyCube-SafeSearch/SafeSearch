@@ -37,7 +37,7 @@ If your website is a search engine, please add the following code:
 
 When you add a pull request, please clearly state what you have done in your request. 
 
-#To-Do
+# To-Do
 
 * Add an "open link" button to the results
     * This can be accomplished by having a new _div_ element with the same styling as the others and have a button's link change with the information using javascript.
