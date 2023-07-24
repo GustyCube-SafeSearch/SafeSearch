@@ -17,7 +17,7 @@ let dSummary2Text = document.getElementById("dSummary2Text")
 let githubLink = document.getElementById("githubLink")
 
 
-fetch('./data.json')
+fetch('https://raw.githubusercontent.com/GustyCube/SafeSearch/main/data.json')
   .then((response) => response.json())
   .then((json) => {
     data = json
