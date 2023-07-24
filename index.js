@@ -14,6 +14,7 @@ let dFunFactText2 = document.getElementById("dFunFactText2")
 let dfunFact2 = document.getElementById("dfunFact2")
 let dSummary2 = document.getElementById("dSummary2")
 let dSummary2Text = document.getElementById("dSummary2Text")
+let githubLink = document.getElementById("githubLink")
 
 
 fetch('./data.json')
@@ -49,6 +50,7 @@ function searchSite() {
   dfunFact2.style.display = "inline-block"
   dSummary2.style.display = "inline-block"
   dSummary2Text.innerHTML = data[searchTerm].summary
+  githubLink.style.display = "none"
 }
 
 

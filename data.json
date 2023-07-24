@@ -86,5 +86,37 @@
         "providedDescription": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
         "funFact": "Youtube's founders created Youtube using their salary from working at PayPal.",
         "summary": "Youtube is a site where you can watch videos from your favorite creators. Watch out for unsafe videos and posts!"
+    },
+    "linkedin.com" : {
+        "URL": "linkedin.com",
+        "ratingImage": "./Assets/yellowRating.svg",
+        "ratingDisc": "This website is a social media platform, so you should watch for unsafe posts, and strangers.",
+        "providedDescription": "500 million+ members | Manage your professional identity. Build and engage with your professional network. Access knowledge, insights and opportunities.",
+        "funFact": "More than 70% of LinkedIn users are based outside the US.",
+        "summary": "LinkedIn is a social media plkatform where you can share your work experience."
+    },
+    "pinterest.com": {
+        "URL": "pintrest.com",
+        "ratingImage": "./Assets/yellowRating.svg",
+        "ratingDisc":"This website is a social media platform, so you should watch for unsafe posts, and strangers.",
+        "providedDescription": "The best part of Pinterest is discovering new things and ideas from people around the world.",
+        "funFact": " On Average, 1 pin gets 11 repins and generates 6 website visits",
+        "summary": "Pintrest is a social media platform where you can discover new foods, things, and ideas from your friends, family, and people around the world."
+    },
+    "wordpress.org": {
+        "URL": "wordpress.org",
+        "ratingImage": "./Assets/greenRating.svg",
+        "ratingDisc": "This website is a website/blog builder, so it is safe to visit.",
+        "providedDescription": "Log in to your WordPress.org account to contribute to WordPress, get help in the support forum, or rate and review themes and plugins. Username or Email Address.",
+        "funFact": "WordPress powers 43.1% of the internet.",
+        "summary": "WordPress is a website where you can create your own blog or website."
+    },
+    "wordpress.com": {
+        "URL": "wordpress.com",
+        "ratingImage": "./Assets/greenRating.svg",
+        "ratingDisc": "This website is a website/blog builder, so it is safe to visit.",
+        "providedDescription": "Create a free website or build a blog with ease on WordPress.com. Dozens of free, customizable, mobile-ready designs and themes. Free hosting and support.",
+        "funFact": "WordPress powers 43.1% of the internet.",
+        "summary": "WordPress is a website where you can create your own blog or website."
     }
 }

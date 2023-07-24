@@ -211,3 +211,13 @@ p {
 #dSummary2:hover {
     box-shadow: 0 152px 152px 0 rgba(0, 0, 0, 0.3);
 }
+
+a {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: #007BFF;
+}
+
+#githubLink {
+    vertical-align: bottom;
+}
