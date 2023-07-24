@@ -1,0 +1,11 @@
+{
+    "name": "GustyCube SafeSearch",
+    "version": "1.0.0",
+    "description": "Check if a website is safe.",
+    "manifest_version": 3,
+    "author": "GustyCube",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "GustyCube SafeSearch"
+    }
+}
