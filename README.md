@@ -49,3 +49,4 @@ When you add a pull request, please clearly state what you have done in your req
     * Accomplishable by having an API? 
 * More advanced ratings
 * Better styling
+* Make it into an exstention
