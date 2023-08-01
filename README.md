@@ -46,7 +46,7 @@ When you add a pull request, please clearly state what you have done in your req
 * Add a "news" catagory for certain websites
     * Using API? Maybe having a "news" that is true or false. If it's true, then it could use the "newsLink" to load something in?
 * Add the option for users to add reviews
-    * Accomplishable by having an API? 
+    * Accomplishable by having an API, or using a google form? 
 * More advanced ratings
 * Better styling
 * Make it into an exstention
