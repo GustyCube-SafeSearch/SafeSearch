@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Entry Creator</title>
+  <link rel="stylesheet" href="./objectCreator.css">
+</head>
+
+<body>
+  <div id="smallLogo">
+    <img src="./Assets/logo.svg" alt="Logo" onclick="locationChange()"
+      draggable="false">
+  </div>
+  <form id="indexer-form">
+    <div id="a1">
+      <label for="url">URL:</label>
+      <input type="text" id="url" name="url" required>
+
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="description">Description:</label>
+      <textarea id="description" name="description" required></textarea>
+
+      <label for="rating">Rating:</label>
+      <select id="rating" name="rating">
+        <option value="safe">Safe Rating</option>
+        <option value="intermediate">Intermediate Rating</option>
+        <option value="unsafe">Unsafe Rating</option>
+      </select>
+
+      <label for="funFact">Fun Fact:</label>
+      <input type="text" id="funFact" name="funFact" required>
+
+      <!-- Add more fields as needed for other attributes in the JSON -->
+
+      <button type="submit">Generate JSON Object</button>
+    </div>
+  </form>
+
+  <div>
+    <label for="jsonObject">JSON Object (Copied to your clipboard):</label>
+    <textarea id="jsonObject" readonly></textarea>
+  </div>
+  <script>
+    document.getElementById("indexer-form").addEventListener("submit", function (event) {
+      event.preventDefault();
+
+      // Get values from the form
+      const url = document.getElementById("url").value;
+      const name = document.getElementById("name").value;
+      const description = document.getElementById("description").value;
+      const ratingOption = document.getElementById("rating").value;
+      const funFact = document.getElementById("funFact").value;
+
+      // Convert rating option to corresponding URL
+      const ratingImageMap = {
+        safe: "https://raw.githubusercontent.com/GustyCube/SafeSearch/main/Assets/greenRating.svg",
+        intermediate: "https://raw.githubusercontent.com/GustyCube/SafeSearch/main/Assets/yellowRating.svg",
+        unsafe: "https://raw.githubusercontent.com/GustyCube/SafeSearch/main/Assets/redRating.svg",
+      };
+      const ratingImage = ratingImageMap[ratingOption];
+
+      // Create the JSON notation object
+      const jsonObject = {
+        [url]: {
+          "URL": url,
+          "ratingImage": ratingImage,
+          "ratingDisc": getRatingDescription(ratingOption),
+          "providedDescription": description,
+          "funFact": funFact,
+          "summary": description,
+          "name": name,
+          // Add more attributes here
+        },
+      };
+
+      // Convert the JSON object to a string
+      const jsonString = JSON.stringify(jsonObject, null, 2);
+
+      // Set the JSON string in the textarea for users to copy
+      document.getElementById("jsonObject").value = jsonString;
+
+      // Copy JSON to clipboard
+      copyToClipboard(jsonString);
+      alert("JSON Object Copied to Clipboard!");
+    });
+
+    function getRatingDescription(ratingOption) {
+      switch (ratingOption) {
+        case "safe":
+          return "This website is safe.";
+        case "intermediate":
+          return "This website is of intermediate safety.";
+        case "unsafe":
+          return "This website is unsafe.";
+        default:
+          return "";
+      }
+    }
+
+    function copyToClipboard(text) {
+      const textArea = document.createElement("textarea");
+      textArea.value = text;
+      document.body.appendChild(textArea);
+      textArea.select();
+      document.execCommand("copy");
+      document.body.removeChild(textArea);
+    }
+
+    function locationChange() {
+      location.href = "https://safesearch.gustycube.xyz";
+    }
+  </script>
+</body>
+
+</html>
