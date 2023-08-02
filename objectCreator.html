@@ -45,7 +45,7 @@
     <textarea id="jsonObject" readonly></textarea>
   </div>
   <script>
-    document.getElementById("indexer-form").addEventListener("submit", function (event) {
+  document.getElementById("indexer-form").addEventListener("submit", function (event) {
       event.preventDefault();
 
       // Get values from the form
@@ -65,16 +65,14 @@
 
       // Create the JSON notation object
       const jsonObject = {
-        [url]: {
-          "URL": url,
-          "ratingImage": ratingImage,
-          "ratingDisc": getRatingDescription(ratingOption),
-          "providedDescription": description,
-          "funFact": funFact,
-          "summary": description,
-          "name": name,
-          // Add more attributes here
-        },
+        "URL": url,
+        "ratingImage": ratingImage,
+        "ratingDisc": getRatingDescription(ratingOption),
+        "providedDescription": description,
+        "funFact": funFact,
+        "summary": description,
+        "name": name,
+        // Add more attributes here
       };
 
       // Convert the JSON object to a string
@@ -85,7 +83,6 @@
 
       // Copy JSON to clipboard
       copyToClipboard(jsonString);
-      alert("JSON Object Copied to Clipboard!");
     });
 
     function getRatingDescription(ratingOption) {
