@@ -220,4 +220,11 @@ a {
 
 #githubLink {
     vertical-align: bottom;
+    display: inline-block;
+}
+
+#objectCreatorLink {
+    vertical-align: bottom;
+    display: inline-block;
+    margin-left: 7px;
 }
