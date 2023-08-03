@@ -10,11 +10,13 @@
 
 <body>
   <div id="smallLogo">
-    <img src="./Assets/logo.svg" alt="Logo" onclick="locationChange()"
-      draggable="false">
+    <img src="./Assets/logo.svg" alt="Logo" onclick="locationChange()" draggable="false">
   </div>
   <form id="indexer-form">
     <div id="a1">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
       <label for="url">URL:</label>
       <input type="text" id="url" name="url" required>
 
@@ -39,13 +41,13 @@
       <button type="submit">Generate JSON Object</button>
     </div>
   </form>
-
+<h2>NOTE: You will need to remove the outer set of brackets from the JSON file.</h2>
   <div>
     <label for="jsonObject">JSON Object (Copied to your clipboard):</label>
     <textarea id="jsonObject" readonly></textarea>
   </div>
   <script>
-  document.getElementById("indexer-form").addEventListener("submit", function (event) {
+    document.getElementById("indexer-form").addEventListener("submit", function (event) {
       event.preventDefault();
 
       // Get values from the form
@@ -65,14 +67,15 @@
 
       // Create the JSON notation object
       const jsonObject = {
-        "URL": url,
-        "ratingImage": ratingImage,
-        "ratingDisc": getRatingDescription(ratingOption),
-        "providedDescription": description,
-        "funFact": funFact,
-        "summary": description,
-        "name": name,
-        // Add more attributes here
+        name: {
+          "URL": url,
+          "ratingImage": ratingImage,
+          "ratingDisc": getRatingDescription(ratingOption),
+          "providedDescription": description,
+          "funFact": funFact,
+          "summary": description,
+          // Add more attributes here
+        }
       };
 
       // Convert the JSON object to a string
