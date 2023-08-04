@@ -14,16 +14,10 @@
   </div>
   <form id="indexer-form">
     <div id="a1">
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required>
-
       <label for="url">URL:</label>
       <input type="text" id="url" name="url" required>
 
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required>
-
-      <label for="description">Description:</label>
+      <label for="description"> Provided Description:</label>
       <textarea id="description" name="description" required></textarea>
 
       <label for="rating">Rating:</label>
@@ -35,6 +29,9 @@
 
       <label for="funFact">Fun Fact:</label>
       <input type="text" id="funFact" name="funFact" required>
+
+      <label for="summary">Summary:</label>
+      <input id="summary" name="summry" required>
 
       <!-- Add more fields as needed for other attributes in the JSON -->
 
@@ -52,10 +49,11 @@
 
       // Get values from the form
       const url = document.getElementById("url").value;
-      const name = document.getElementById("name").value;
+      const summary= document.getElementById("summary").value;
       const description = document.getElementById("description").value;
       const ratingOption = document.getElementById("rating").value;
       const funFact = document.getElementById("funFact").value;
+      const url2 = document.getElementById("url").value;
 
       // Convert rating option to corresponding URL
       const ratingImageMap = {
@@ -67,13 +65,13 @@
 
       // Create the JSON notation object
       const jsonObject = {
-        name: {
+        [url2]: {
           "URL": url,
           "ratingImage": ratingImage,
           "ratingDisc": getRatingDescription(ratingOption),
           "providedDescription": description,
           "funFact": funFact,
-          "summary": description,
+          "summary": summary,
           // Add more attributes here
         }
       };
