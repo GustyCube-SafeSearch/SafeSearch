@@ -9,7 +9,7 @@ To add your own knowledge, add a pull request with updates and I will do my best
 
 ## Adding to the Database
 To add to the database, click the green "Code" button on the GitHub repository, and click on CodeSpaces. Add one, and open it in what you would like. You can go to the pull request icon and click the commit button. After you have finished entering your message, you can click the check mark in the the top right to continue. then hit commit changes. Follow the options below to continue. 
-#### Option 1 (Recommended)
+#### Option 1 (Beta)
 Go to [safesearch.gustycube.xyz/objectCreator.html](https://safesearch.gustycube.xyz/objectCreator.html), and enter in the prompts. In the JSON file, you can add a comma to the previous entry, and then add your code below.
 
 Once you are done, enter it into a pull request with a clear description and I will do my best to look through it, and allow it.
