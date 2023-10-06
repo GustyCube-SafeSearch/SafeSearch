@@ -1,5 +1,6 @@
 # SafeSearch
 A project set to make the internet a safer place by adding a free database that people can browse and contribute to.
+<br>
 [![CodeFactor](https://www.codefactor.io/repository/github/gustycube/safesearch/badge)](https://www.codefactor.io/repository/github/gustycube/safesearch)
 
 # Use
