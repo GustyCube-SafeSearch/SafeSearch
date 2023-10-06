@@ -134,5 +134,13 @@
         "providedDescription": "Red Apples Media is a full-service video production marketing company in Central Florida. We specialize in production, advertising, branding.",
         "funFact": "This company will help you if you want to advertise your products!",
         "summary": "Red apple media is a company that helps you market your products."
+    },
+    "microsoft.com": {
+        "URL": "https://microsoft.com",
+        "ratingImage": "https://raw.githubusercontent.com/GustyCube/SafeSearch/main/Assets/greenRating.svg",
+        "ratingDisc": "This website is safe.",
+        "providedDescription": "Explore Microsoft products and services for your home or business. Shop Surface, Microsoft 365, Xbox, Windows, Azure, and more. Find downloads and get support.",
+        "funFact": "Microsoft made some of the first PC's!",
+        "summary": "Microsoft is a company that creates products like Surface Laptops and Powerpoint. Visit this site to buy them."
     }
 }
