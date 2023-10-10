@@ -34,7 +34,7 @@ function searchSite() {
   var searchTerm = searchBar.value.toLowerCase();
 
   if (!data[searchTerm]) {
-    alert("No info found. This website was created as an example, so there aren't many options yet! Try picking from the dropdown.")
+    alert("No info found. You can contribute on the GitHub, or submit an issue..")
     return
   }
   console.log(searchTerm)
