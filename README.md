@@ -2,6 +2,7 @@
 A project set to make the internet a safer place by adding a free database that people can browse and contribute to.
 <br>
 [![CodeFactor](https://www.codefactor.io/repository/github/gustycube/safesearch/badge)](https://www.codefactor.io/repository/github/gustycube/safesearch)
+[![GitHub stars](https://img.shields.io/github/stars/GustyCube/SafeSearch.svg?style=social&label=Star)](https://github.com/khrome/ascii-art)
 
 # Use
 To use, simply type in your URL in the search bar and either press enter or click the search button. 
