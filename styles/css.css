@@ -152,7 +152,7 @@ span {
 }
 
 p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Alliance', sans-serif;
 }
 
 #di22 {
@@ -213,8 +213,7 @@ p {
 }
 
 a {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 30px;
+    font-family:'Roboto', 'Arial Narrow', Arial, sans-serif;
     color: #007BFF;
 }
 
@@ -236,6 +235,7 @@ a {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: alliance, sans-serif;
+    text-align: center;
 }
 
 .h1 {
@@ -253,6 +253,8 @@ a {
     font-weight: 400;
     font-style: normal;             
   }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
   
 .bg-image {
     position: absolute;
@@ -262,5 +264,21 @@ a {
     left: 0;
     margin: 0;
     padding: 0;
-    z-index: -1
+    z-index: -1;
 }
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #85C7F2;
+    margin: none;
+}
+
+hr {
+    height: 2px; 
+    color: grey;
+}
+
