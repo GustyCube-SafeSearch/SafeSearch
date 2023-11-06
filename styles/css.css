@@ -228,3 +228,39 @@ a {
     display: inline-block;
     margin-left: 7px;
 }
+
+/* Thanks to Github Archive Program for styles until end marked.*/
+
+#titleFont {
+    background: linear-gradient(94.23deg,#5374fa 12.41%,#fd9179 52.55%,#ff6969 89.95%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: alliance, sans-serif;
+}
+
+.h1 {
+    display: block;
+    font-family: alliance,sans-serif;
+    font-weight: 300!important;
+    font-size: 40px!important;
+    line-height: 1;
+    letter-spacing: -.01em;
+}
+
+@font-face {
+    font-family: alliance;
+    src: url(../fonts/alliance-no-2-regular.woff2) format("woff2"),url(../fonts/alliance-no-2-regular.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;             
+  }
+  
+.bg-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    z-index: -1
+}
