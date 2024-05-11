@@ -134,5 +134,13 @@
         "providedDescription": "Explore Microsoft products and services for your home or business. Shop Surface, Microsoft 365, Xbox, Windows, Azure, and more. Find downloads and get support.",
         "funFact": "Microsoft made some of the first PC's!",
         "summary": "Microsoft is a company that creates products like Surface Laptops and Powerpoint. Visit this site to buy them."
+    },
+    "pornhub.com": {
+        "URL": "https://pornhub.com",
+        "ratingImage": "https://raw.githubusercontent.com/GustyCube/SafeSearch/main/Assets/redRating.svg",
+        "ratingDisc": "This website isn't safe.",
+        "providedDescription": "Watch porn, too much porn, and other type of content, but mainly porn.",
+        "funFact": "Pornhub has gay content in it.",
+        "summary": "There's a minecraft speedrun in it. Luck finding it."
     }
 }
